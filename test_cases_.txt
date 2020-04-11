@@ -1,0 +1,91 @@
+TESTCASES    
+1 	 Login to the application as standard_user	 
+2 	 Login to the application as problem_user
+3	 Login to the application as locked_out_user
+4        Login to the application as performance_glitch_user
+5        Login to the application as invalid user.
+
+
+                                         TEST CASE 1
+
+TEST Case ID : test_ui_1           							Test Designed By: Ranjith Kumar
+Test Priority (L/M/H): H								
+Module Name: saucedemo login page							Test Executed By:Ranjith Kuamar
+Test Title: Verify login as standard_user			
+Description: Test the saucedemo login page
+
+Pre-conditions: user should be on the login portal.
+
+
+Step   Test Steps     Test Data 	           Expected Result 	              Actual Result 	                 Status 	Notes
+1	Navigate to login page
+2	Login as standard_user
+3	Validate the application is working fine.  App responds fine		       As expected 		   	 Pass        
+
+					
+__________________________________________________________________________________________________________________________________________
+ 					TEST CASE 2
+
+TEST Case ID : test_ui_2           							Test Designed By: Ranjith Kumar
+Test Priority (L/M/H): H								
+Module Name: saucedemo login page							Test Executed By:Ranjith Kuamar
+Test Title: Verify login as problem_user
+Description: Test the saucedemo login page
+
+Pre-conditions: user should be on the login portal.
+
+
+Step   Test Steps     Test Data 	                 Expected Result 	              Actual Result 	                 Status 	Notes
+1	Navigate to login page
+2	Login as problem_user
+3	Validate that images doesnot load and app        Images does not load                 As expected 			  Pass  
+        does not works fine              
+_____________________________________________________________________________________________________________________________________________
+					TEST CASE 3
+
+TEST Case ID : test_ui_3           							Test Designed By: Ranjith Kumar
+Test Priority (L/M/H): H								
+Module Name: saucedemo login page							Test Executed By:Ranjith Kuamar
+Test Title: Verify login with locked_out user			
+Description: Test the saucedemo login page
+
+Pre-conditions: user should be in the login portal.
+
+
+Step   Test Steps     Test Data 			Expected Result 	              Actual Result 	                 Status 	Notes
+1	Navigate to login page				Locked out error message		As Expected			Pass 
+2	Login as locked_out user
+3       Validate the locked out error message         		   	          
+_____________________________________________________________________________________________________________________________________________
+					TEST CASE 4
+
+TEST Case ID : test_ui_4           							Test Designed By: Ranjith Kumar
+Test Priority (L/M/H): H								
+Module Name: saucedemo login page							Test Executed By:Ranjith Kuamar
+Test Title: Verify login with performance_glitch_user			
+Description: Test the saucedemo login page
+
+Pre-conditions: user should be in the login portal.
+
+
+Step   Test Steps     Test Data 			Expected Result 	              Actual Result 	                 Status 	Notes
+1	Navigate to login page				Application responds slowly.          As expected.			  Pass 	 
+2	Login as performance_glitch_user	
+3       Validate the app is performing slowly          		           
+_____________________________________________________________________________________________________________________________________________
+	       				TEST CASE 5
+
+TEST Case ID : test_ui_5           							Test Designed By: Ranjith Kumar
+Test Priority (L/M/H): H								
+Module Name: saucedemo login page							Test Executed By:Ranjith Kuamar
+Test Title: Verify login with invalid credentials 			
+Description: Test the saucedemo login page
+
+Pre-conditions: user should be on the login portal.
+
+
+Step   Test Steps     Test Data 	Expected Result 	                 Actual Result 	                           Status 	Notes
+1	Navigate to login page          Error message is thrown.                 As expected                               Pass
+2	Enter Invalid creds
+3       Vlidate the error message       		 
+_____________________________________________________________________________________________________________________________________________
